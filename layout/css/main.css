@@ -1,0 +1,53 @@
+.sp-thongbao {
+  color: red;
+  margin-left: 2px;
+  display: none;
+}
+
+#SapXepGiam {
+  display: none;
+}
+
+#content {
+  width: 100%;
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #acb6e5, #74ebd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.myCardHeader,
+.myCardFooter {
+  background-color: transparent;
+}
+
+.table .edit {
+  padding: 12px 15px;
+  display: flex;
+}
+
+td button {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+td button:focus {
+  outline: none;
+}
+
+td i {
+  cursor: pointer;
+  color: rgb(50, 104, 59);
+  transition: all 0.5s;
+}
+td i:hover {
+  color: rgb(158, 50, 50);
+  font-size: 2rem;
+}
